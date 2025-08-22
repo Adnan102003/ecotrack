@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── optional custom styles below ── */
+/* you can paste any of the Vite demo rules
+   here later if you still want them */
