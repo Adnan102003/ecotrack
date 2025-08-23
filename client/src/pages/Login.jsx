@@ -18,11 +18,9 @@ export default function Login() {
       <form onSubmit={submit} className="w-80 space-y-4">
         <h1 className="text-2xl font-semibold text-center">Login</h1>
         <input className="border p-2 w-full" placeholder="Email"
-               value={form.email}
-               onChange={e => set({ ...form, email: e.target.value })}/>
+               value={form.email} onChange={e=>set({...form,email:e.target.value})}/>
         <input className="border p-2 w-full" type="password" placeholder="Password"
-               value={form.password}
-               onChange={e => set({ ...form, password: e.target.value })}/>
+               value={form.password} onChange={e=>set({...form,password:e.target.value})}/>
         <button className="bg-green-600 text-white w-full py-2">Sign In</button>
         <Link to="/register" className="block text-center text-blue-600 text-sm">
           Need an account?
